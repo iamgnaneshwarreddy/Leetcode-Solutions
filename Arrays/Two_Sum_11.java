@@ -1,4 +1,4 @@
-class Solution {
+class Two_Sum_11 {
     public int[] twoSum(int[] numbers, int target) {
         int l = 0;
         int r = numbers.length-1;
