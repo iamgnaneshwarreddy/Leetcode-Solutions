@@ -1,0 +1,8 @@
+git checkout main          → go to main
+git pull origin main       → sync latest
+git checkout -b branch     → create workspace
+git add .                  → stage changes
+git commit -m "message"    → save snapshot
+git push origin branch     → upload to GitHub
+gh pr create               → open pull request
+gh pr merge # --merge      → merge + delete branch

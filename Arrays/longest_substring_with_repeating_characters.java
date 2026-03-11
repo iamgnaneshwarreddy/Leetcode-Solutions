@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-public class Solution {
+public class longest_substring_with_repeating_characters {
     public int lengthOfLongestSubstring(String s) {
         HashSet<Character> hset = new HashSet<>();
         int l = 0;
@@ -20,4 +20,4 @@ public class Solution {
         }
         return maxL;
     }
-} 
+}
